@@ -1,6 +1,6 @@
 {
   "name": "on-url-change",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Listen to url change events",
   "main": "index.js",
   "scripts": {
