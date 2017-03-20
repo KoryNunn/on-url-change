@@ -2,7 +2,7 @@ var EventEmitter = require('events');
 Number.isInteger = require('is-integer');
 
 module.exports = function(interval){
-    if(Number.isInteger(interval)){
+    if(!Number.isInteger(interval)){
         interval = 50;
     }
 
