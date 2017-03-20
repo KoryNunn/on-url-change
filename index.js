@@ -1,6 +1,8 @@
 var EventEmitter = require('events');
 
 module.exports = function(interval){
+    interval = parseInt(interval);
+
     if(isNaN(interval)){
         interval = 50;
     }
