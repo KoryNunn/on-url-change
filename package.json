@@ -1,7 +1,7 @@
 {
   "name": "on-url-change",
   "version": "1.0.0",
-  "description": "",
+  "description": "Listen to url change events",
   "main": "index.js",
   "scripts": {
     "watch": "watchify test/index.js -o test/index.browser.js"
@@ -10,5 +10,16 @@
   "license": "ISC",
   "devDependencies": {
     "crel": "^3.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/on-url-change.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/on-url-change/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/on-url-change#readme"
 }
