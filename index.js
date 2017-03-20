@@ -1,7 +1,8 @@
 var EventEmitter = require('events');
+Number.isInteger = require('is-integer');
 
 module.exports = function(interval){
-    if(isNaN(interval)){
+    if(Number.isInteger(interval)){
         interval = 50;
     }
 
